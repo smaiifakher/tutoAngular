@@ -97,9 +97,15 @@
             "styles": ["src/styles.css"],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
   },
-  "defaultProject": "ngMi2"
+  "defaultProject": "ngMi2",
+  "deploy": {
+    "builder": "angular-cli-ghpages:deploy",
+  }
 }
